@@ -17,7 +17,7 @@ class Handle(object):
             timestamp = data.timestamp
             nonce = data.nonce
             echostr = data.echostr
-            token = 'wechatwebapp20191215'
+            token = '1fb9452481134627a72099c951eefa0a'
 
             compose_list = [token, timestamp, nonce]
             compose_list.sort()
